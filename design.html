@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralized Financial Management System</title>
+
+    <style>
+        :root {
+            --green: #075536;
+            --green2: #13834c;
+            --gold: #c59a37;
+            --bg: #f5f7f5;
+            --ink: #202b25;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+        }
+
+        .app {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            width: 265px;
+            flex-shrink: 0;
+            background: linear-gradient(160deg, #06472f, #063b2b);
+            color: white;
+            padding: 20px 16px;
+        }
+
+        .nav button {
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            width: 100%;
+            text-align: left;
+            border: 0;
+            color: #eaf4ed;
+            background: transparent;
+            padding: 12px 13px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .nav button:hover,
+        .nav button.active {
+            background: #168449;
+            color: white;
+        }
+
+        .main {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .topbar {
+            background: white;
+            border-bottom: 1px solid #e6eae7;
+            padding: 20px 28px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .heading h1 {
+            font-size: 27px;
+            color: #164b35;
+        }
+
+        .content {
+            padding: 22px 26px;
+        }
+
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(6, minmax(0, 1fr));
+            gap: 12px;
+        }
+
+        .metric {
+            background: white;
+            border: 1px solid #e6eae7;
+            border-radius: 10px;
+            padding: 15px 12px;
+        }
+
+        .analytics {
+            display: grid;
+            grid-template-columns: 1.25fr .9fr .95fr .95fr;
+            gap: 13px;
+        }
+
+        .panel {
+            background: white;
+            border: 1px solid #e6eae7;
+            border-radius: 10px;
+            padding: 16px;
+        }
+
+        @media (max-width: 800px) {
+            .metrics {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            .analytics {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Paste the remaining dashboard HTML and JavaScript here -->
+
+</body>
+</html>
+
+         
